@@ -28,8 +28,8 @@ const questions = [
             { text: "nilai.length()", correct: false },
         ]
     },
-    {   // 4. (Switch statement)
-        question: `Program ini menghasilkan output apa?\n\nint a=2;\nswitch(a){\n  case 0: ...\n  case 1: ...\n  case 2: System.out.println("Nilai a = 2"); break;\n  default: ...\n}`,
+    {   // 4. (Switch statement) - DIPERBAIKI
+        question: `Program ini menghasilkan output apa?\n\nint a=2;\nswitch(a){\n  case 0: System.out.println("Nilai a = 0"); break;\n  case 1: System.out.println("Nilai a = 1"); break;\n  case 2: System.out.println("Nilai a = 2"); break;\n  default: System.out.println("Nilai Case tidak terpenuhi");\n}`,
         answers: [
             { text: "Nilai Case tidak terpenuhi", correct: false },
             { text: "Nilai a = 2", correct: true },
