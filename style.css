@@ -176,4 +176,25 @@ h2 {
         bottom: 2px;
         right: 2px;
     }
+
+    /* Tambahkan di akhir file style.css Anda */
+
+/* Memastikan teks kode di dalam pertanyaan utama berpindah baris */
+#question pre {
+    white-space: pre-wrap !important; 
+    word-break: break-word !important;
+}
+
+/* Memastikan teks di tombol jawaban berpindah baris jika terlalu panjang */
+.btn {
+    white-space: normal !important; /* Overwrite default button white-space */
+    word-wrap: break-word !important; 
+    word-break: break-word !important; 
+}
+
+/* Opsional: Hapus scrollbar horizontal jika masih ada */
+#answer-key pre {
+    white-space: pre-wrap !important;
+    word-break: break-word !important;
+}
 }
